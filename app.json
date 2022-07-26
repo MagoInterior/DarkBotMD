@@ -5,7 +5,11 @@
 	"logo": "https://node-js-sample.herokuapp.com/node.png",
 	 "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
-    {
+     {
+      "url": "heroku/nodejs-npm-buildpack.git"
+    },
+		 
+		 {
       "url": "heroku/nodejs"
     },
     {
